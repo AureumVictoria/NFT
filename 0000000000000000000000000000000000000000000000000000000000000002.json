@@ -1,6 +1,24 @@
 {
-  "description": "GameItems - Thor's Hammer",
-  "external_url": "https://forum.openzeppelin.com",
-  "image": "https://openmoji.org/data/color/svg/1F528.svg",
-  "name": "Thor's Hammer"
+	"name": "SECURUSMINER3",
+	"description": "The Big Power Miner",
+	"image": "https://www.securuscoin.com/assets/images/big-1000x1000.png",
+	"properties": {
+		"MINING COIN": "XSCR",
+		"rich_property": {
+			"name": "Mining Power",
+			"value": "25",
+			"display_value": "25",
+			"class": "emphasis",
+			"css": {
+				"color": "#ffffff",
+				"font-weight": "bold",
+				"text-decoration": "underline"
+			}
+		},
+		"array_property": {
+			"name": "Name",
+			"value": [1,2,3,4],
+			"class": "emphasis"
+		}
+	}
 }
