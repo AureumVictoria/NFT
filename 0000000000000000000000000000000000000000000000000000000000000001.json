@@ -1,6 +1,24 @@
 {
-  "description": "GameItems - Silver",
-  "external_url": "https://forum.openzeppelin.com",
-  "image": "https://openmoji.org/data/black/svg/1FA99.svg",
-  "name": "Silver"
+	"name": "SECURUSMINER2",
+	"description": "The New Power Miner",
+	"image": "https://www.securuscoin.com/assets/images/big-1000x1000.png",
+	"properties": {
+		"MINING COIN": "XSCR",
+		"rich_property": {
+			"name": "Mining Power",
+			"value": "10",
+			"display_value": "10",
+			"class": "emphasis",
+			"css": {
+				"color": "#ffffff",
+				"font-weight": "bold",
+				"text-decoration": "underline"
+			}
+		},
+		"array_property": {
+			"name": "Name",
+			"value": [1,2,3,4],
+			"class": "emphasis"
+		}
+	}
 }
