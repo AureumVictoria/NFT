@@ -1,13 +1,13 @@
 {
-	"name": "SECURUSMINER2",
-	"description": "Lorem ipsum...",
+	"name": "SECURUSMINER5",
+	"description": "The Ultimate Power Miner",
 	"image": "https://www.securuscoin.com/assets/images/big-1000x1000.png",
 	"properties": {
-		"simple_property": "example value",
+		"MINING COIN": "DXSCR",
 		"rich_property": {
-			"name": "Name",
-			"value": "123",
-			"display_value": "123 Example Value",
+			"name": "Mining Power",
+			"value": "100",
+			"display_value": "100",
 			"class": "emphasis",
 			"css": {
 				"color": "#ffffff",
