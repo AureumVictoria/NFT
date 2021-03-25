@@ -3,7 +3,7 @@
 	"description": "The Ultimate Power Miner",
 	"image": "https://www.securuscoin.com/assets/images/big-1000x1000.png",
 	"properties": {
-		"MINING COIN": "DXSCR",
+		"MINING COIN": "XSCR",
 		"rich_property": {
 			"name": "Mining Power",
 			"value": "100",
