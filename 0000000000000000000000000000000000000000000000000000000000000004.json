@@ -2,5 +2,6 @@
   "description": "GameItems - SECURUSMINER2",
   "external_url": "https://forum.openzeppelin.com",
   "image": "https://www.securuscoin.com/assets/images/big-1000x1000.png",
-  "name": "SECURUSMINER2"
+  "name": "SECURUSMINER2",
+  "strength": 20
 }
