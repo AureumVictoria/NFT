@@ -1,6 +1,24 @@
 {
- "name": "Gold Power",
-    "description": "Mjölnir, the legendary hammer of the Norse god of thunder.",
-    "image": "https://securuscoin.com/assets/images/coin-final-128x128.png",
-    "strength": 20
+	"name": "SECURUSMINER1",
+	"description": "The New Power Miner",
+	"image": "https://www.securuscoin.com/assets/images/big-1000x1000.png",
+	"properties": {
+		"MINING COIN": "XSCR",
+		"rich_property": {
+			"name": "Mining Power",
+			"value": "1",
+			"display_value": "1",
+			"class": "emphasis",
+			"css": {
+				"color": "#ffffff",
+				"font-weight": "bold",
+				"text-decoration": "underline"
+			}
+		},
+		"array_property": {
+			"name": "Name",
+			"value": [1,2,3,4],
+			"class": "emphasis"
+		}
+	}
 }
