@@ -84,7 +84,7 @@ import "./IERC20.sol";
     }
 
     /**
-     * @dev Updatey the URI base for all NFTs.
+     * @dev update the URI base for all NFTs.
      * @param newBaseTokenURI New URI base.
      */
     function setBaseURI(
