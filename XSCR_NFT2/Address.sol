@@ -21,7 +21,7 @@ library Address {
      *  - an externally-owned account
      *  - a contract in construction
      *  - an address where a contract will be created
-     *  - an address where a contract lived, but was destroyed
+     *  - an address where a contract exist, but was destroyed
      * ====
      */
     function isContract(address account) internal view returns (bool) {
@@ -36,7 +36,7 @@ library Address {
     }
 
     /**
-     * @dev Replacement for Solidity's `transfer`: sends `amount` wei to
+     * @dev Replacement for Solidity's `transfer`: sends `amount` weigh to
      * `recipient`, forwarding all available gas and reverting on errors.
      *
      * https://eips.ethereum.org/EIPS/eip-1884[EIP1884] increases the gas cost
@@ -64,7 +64,7 @@ library Address {
      * plain `call` is an unsafe replacement for a function call: use this
      * function instead.
      *
-     * If `target` reverts with a revert reason, it is bubbled up by this
+     * If `target` reverts with a revert reason, it will be replaced by this
      * function (like regular Solidity function calls).
      *
      * Returns the raw returned data. To convert to the expected return value,
@@ -173,9 +173,9 @@ library Address {
         if (success) {
             return returndata;
         } else {
-            // Look for revert reason and bubble it up if present
+            // Look for the reason for relapse and resolve it, if any.
             if (returndata.length > 0) {
-                // The easiest way to bubble the revert reason is using memory via assembly
+                // The easiest way to fix the reason for the undo is to use memory via the Assembly
 
                 // solhint-disable-next-line no-inline-assembly
                 assembly {
