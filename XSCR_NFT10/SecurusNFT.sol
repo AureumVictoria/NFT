@@ -55,6 +55,15 @@ import "./IERC20.sol";
         string calldata newBaseTokenURI) external onlyAuthorized() {
         baseTokenURI = newBaseTokenURI;
     }
+
+    /**
+     * @dev Sets or revokes authorized address.
+     * @param addr Address we are setting.
+     * @param isAuthorized True is setting, false if we are revoking.
+     */
+    function setAuthorizedAddress(address addr, bool isAuthorized) external onlyOwner() {
+        authorizedAddresses[addr] = isAuthorized;
+    }
   
     /**
      * @dev Overrides _baseURI function so we define the URI base we will be using.
