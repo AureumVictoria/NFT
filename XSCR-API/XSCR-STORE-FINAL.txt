@@ -1,0 +1,571 @@
+[
+	{
+		"inputs": [],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"internalType": "address",
+				"name": "previousOwner",
+				"type": "address"
+			},
+			{
+				"indexed": true,
+				"internalType": "address",
+				"name": "newOwner",
+				"type": "address"
+			}
+		],
+		"name": "OwnershipTransferred",
+		"type": "event"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "RefLevels",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "level1",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "level2",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "level3",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "level4",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "level5",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "level6",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "TermsOfService",
+		"outputs": [
+			{
+				"internalType": "contract ITermsOfService",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_blacklistContract",
+				"type": "address"
+			}
+		],
+		"name": "UpdateBlacklistContract",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_dropIndex",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_idCounter",
+				"type": "uint256"
+			}
+		],
+		"name": "UpdateIdCounter",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_dropIndex",
+				"type": "uint256"
+			},
+			{
+				"internalType": "address",
+				"name": "_nftAddress",
+				"type": "address"
+			}
+		],
+		"name": "UpdateNftAddress",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_dropIndex",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_nftId",
+				"type": "uint256"
+			}
+		],
+		"name": "UpdateNftId",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_dropIndex",
+				"type": "uint256"
+			},
+			{
+				"internalType": "address",
+				"name": "_paymentCoin",
+				"type": "address"
+			}
+		],
+		"name": "UpdatePaymentCoin",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_dropIndex",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_price",
+				"type": "uint256"
+			}
+		],
+		"name": "UpdatePrice",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_dropIndex",
+				"type": "uint256"
+			},
+			{
+				"internalType": "address",
+				"name": "_newReceiverAddress",
+				"type": "address"
+			}
+		],
+		"name": "UpdateReceiverAddress",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_referralsContract",
+				"type": "address"
+			}
+		],
+		"name": "UpdateReferralsContract",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_dropIndex",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_startTime",
+				"type": "uint256"
+			}
+		],
+		"name": "UpdateStartTime",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_TermsOfService",
+				"type": "address"
+			}
+		],
+		"name": "UpdateTermsOfService",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_dropIndex",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_totalSupply",
+				"type": "uint256"
+			}
+		],
+		"name": "UpdateTotalSupply",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_whitelistContract",
+				"type": "address"
+			}
+		],
+		"name": "UpdateWhitelistContract",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "totalSupply",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "idCounter",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "nftId",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "startTime",
+				"type": "uint256"
+			},
+			{
+				"internalType": "address",
+				"name": "nftAddress",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "paymentCoin",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "receiverAddress",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "price",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "Storelevel",
+				"type": "uint256"
+			}
+		],
+		"name": "addDrop",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "level1",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "level2",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "level3",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "level4",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "level5",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "level6",
+				"type": "uint256"
+			}
+		],
+		"name": "addRefLevel",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "blacklist",
+		"outputs": [
+			{
+				"internalType": "contract IBlacklist",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_dropIndex",
+				"type": "uint256"
+			},
+			{
+				"internalType": "address",
+				"name": "_sponsor",
+				"type": "address"
+			}
+		],
+		"name": "buy",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "drops",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "totalSupply",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "idCounter",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "nftId",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "startTime",
+				"type": "uint256"
+			},
+			{
+				"internalType": "address",
+				"name": "nftAddress",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "paymentCoin",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "receiverAddress",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "price",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "Storelevel",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getDropCount",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "owner",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "referrals",
+		"outputs": [
+			{
+				"internalType": "contract IReferrals",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_dropIndex",
+				"type": "uint256"
+			}
+		],
+		"name": "removeDrop",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "renounceOwnership",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "statusStoreWhitelist",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "bool",
+				"name": "_statusStoreWhitelistIs",
+				"type": "bool"
+			}
+		],
+		"name": "statusStoreWhitelistIs",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "newOwner",
+				"type": "address"
+			}
+		],
+		"name": "transferOwnership",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "whitelist",
+		"outputs": [
+			{
+				"internalType": "contract IWhitelist",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
